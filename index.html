@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Task-3</title>
+</head>
+
+<body>
+    <div>
+        <table class="tableMain" cellspacing="0">
+            <tbody class="tableMain__body">
+                <tr class="tableMain__row">
+                    <td class="tableMain__cell">Title A</td>
+                    <td class="tableMain__cell" colspan="2">Title B</td>
+                    <td class="tableMain__cell" colspan="2">Title C</td>
+                </tr>
+                <tr class="tableMain__row">
+                    <td class="tableMain__cell tableMain__cell_padding_top"></td>
+                    <td class="tableMain__cell tableMain__cell_padding_none" rowspan="5" colspan="2">
+                        <table class="innerTable" cellspacing="0">
+                            <tr class="innerTable__row">
+                                <td class="innerTable__cell">
+                                    Title E
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="tableMain__cell tableMain__cell_border_right" rowspan="5" colspan="2">
+                        <table class="tablePrice" cellspacing="0">
+                            <thead class="tablePrice__head">
+                                <tr class="tablePrice__row">
+                                    <th class="tablePrice__cell tablePrice__row_bg_gray">Item / Desc</th>
+                                    <th class="tablePrice__cell tablePrice__row_bg_gray">Qty</th>
+                                    <th class="tablePrice__cell tablePrice__row_bg_gray">@</th>
+                                    <th class="tablePrice__cell tablePrice__row_bg_gray">Price</th>
+                                </tr>
+                            </thead>
+
+                            <body>
+                                <tr class="tablePrice__row">
+                                    <td class="tablePrice__cell">Paperclips (Box)</td>
+                                    <td class="tablePrice__cell">100</td>
+                                    <td class="tablePrice__cell">1.15</td>
+                                    <td class="tablePrice__cell">115.00</td>
+                                </tr>
+                                <tr class="tablePrice__row">
+                                    <td class="tablePrice__cell">Paper (Case)</td>
+                                    <td class="tablePrice__cell">10</td>
+                                    <td class="tablePrice__cell">45.99</td>
+                                    <td class="tablePrice__cell">459.90</td>
+                                </tr>
+                                <tr class="tablePrice__row">
+                                    <td class="tablePrice__cell">Wastepaper Baskets</td>
+                                    <td class="tablePrice__cell">2</td>
+                                    <td class="tablePrice__cell">19.99</td>
+                                    <td class="tablePrice__cell">35.98</td>
+                                </tr>
+                                <tr class="tablePrice__row">
+                                    <td class="tablePrice__cell tablePrice__row_bg_gray" colspan="3">Subtotal</td>
+                                    <td class="tablePrice__cell">610.88</td>
+                                </tr>
+                                <tr class="tablePrice__row">
+                                    <td class="tablePrice__cell tablePrice__row_bg_gray" colspan="2">Tax</td>
+                                    <td class="tablePrice__cell">7%</td>
+                                    <td class="tablePrice__cell">42.76</td>
+                                </tr>
+                                <tr class="tablePrice__row">
+                                    <td class="tablePrice__cell tablePrice__row_bg_gray" colspan="3">Total</td>
+                                    <td class="tablePrice__cell">653.64</td>
+                                </tr>
+                            </body>
+                        </table>
+                    </td>
+                </tr>
+                <tr class="tableMain__row">
+                    <td class="tableMain__cell">Title D</td>
+                </tr>
+                <tr class="tableMain__row">
+                    <td class="tableMain__cell" rowspan="5"></td>
+                </tr>
+                <tr class="tableMain__row">
+
+                </tr>
+                <tr class="tableMain__row">
+
+                </tr>
+                <tr class="tableMain__row">
+                    <td class="tableMain__cell">Title F</td>
+                    <td class="tableMain__cell" colspan="2">Title G</td>
+                    <td class="tableMain__cell tableMain__cell_border_right">Title H</td>
+                </tr>
+                <tr class="tableMain__row">
+                    <td class="tableMain__cell"></td>
+                    <td class="tableMain__cell" colspan="2"></td>
+                    <td class="tableMain__cell tableMain__cell_border_right"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
